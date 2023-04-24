@@ -1,0 +1,71 @@
+.escritura {
+
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 25px;
+    
+    
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 0%, rgba(48, 48, 122, 1) 35%,
+            rgba(0, 212, 255, 1) 100%);
+
+    box-shadow:-10px 10px 10px gray ;
+
+    border-radius: 10px 10px 30px 30px;
+
+}
+
+p{
+    color: beige;
+}
+
+div{
+
+    background-color: greenyellow;
+    column-count: 2;
+    column-gap: 40px;
+    margin: 0px;
+    column-rule: 3px solid blue;
+
+}
+
+div p2{
+
+    margin: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+
+}
+
+h2{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px; 
+}
+
+.boton{
+
+    font-family: Roboto, sans-serif;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ text-align: center;
+ border: 5px solid rgba(0,1,300,0.8);
+ background: rgba(0,1,300,0.5);
+ color: whitesmoke;
+ box-shadow: 2px 2px 3px rgba(0,0,300,0.5);
+ border-radius: 12px;
+ padding: 4px 12px;
+ display: inline-block;
+ cursor: pointer;
+
+ 
+   font-variation-settings:
+   'FILL' 0,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 48
+ 
+ 
+
+}
